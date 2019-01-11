@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="initial-scale=1", content="width=device-width">
+<link rel="stylesheet" type="text/css" href="materialize/css/materialize.css">
+<script type="text/javascript" src="JS/jquery.min.js"></script>
+<script src="materialize/js/materialize.js"></script>
+<script type="text/javascript" src="JS/identification.js"></script>
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+  <title> S'identifier </title>
+  <style type="text/css">
+  nav ul a,
+nav .brand-logo {
+  color: #444;
+}
+
+
+
+ body{
+  background-image: url("css/identifier.jpg");
+  background-size: cover;
+ }
+  </style>
+
+  
+</head>
+<body>
+<nav class="black" role="navigation">
+    <div class="nav-wrapper container">
+      <a id="logo-container" href="index.html" class="brand-logo white-text">vPro</a>
+      </div>
+      </nav>
+<div class="container">
+  <div class="col s12  ">
+   <div class="row">
+   <div class="col l3  "></div>
+   <div class="col l3  "></div>
+    <div class="col s12 l6  ">
+    
+   	<form action="identificationControl" method="post" id="idForm">
+      <div class="card lighten-4 ">
+        <div class="card-content">
+          <span class="card-title lighten-4-text ">identification</span>
+		<div class="row">
+        <div class="input-field col l12 s12">
+          <input id="nom" type="text"  required="required" name="user">
+          <label for="nom">username</label>
+        </div>
+        </div>
+        <div class="row">
+        <div class="input-field col l12 s12">
+          <input id="password" type="password" class="validate" required="required" name="password">
+          <label for="password">password</label>
+        </div>
+      </div>
+      <a href="#" id="mdp" class="black-text">mot de passe oublier</a>
+      
+      <div class="card-action">
+      
+      <button class="btn black "> s'identifier </button>
+      
+      </div>
+      </div>
+    </form>
+  </div>
+</div>
+  </div>
+
+   </div>
+</html>

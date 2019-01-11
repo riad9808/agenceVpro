@@ -1,0 +1,13 @@
+th{
+	text-align: left;
+}
+td{
+	text-align: left;
+}
+#info{
+	color: #00bcd4;
+}
+body{
+	background-image: url("css/profil.jpg");
+	background-size: cover;
+}

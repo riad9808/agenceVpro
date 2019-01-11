@@ -1,0 +1,43 @@
+body {
+    background-image: url(authentification.jpg);
+}
+
+.mdl-layout__content {
+    position: relative;
+    left: 50%;
+    top: 40px;
+    transform: translate(-50%, 0);
+    perspective: 1000px;
+    width: 330px;
+    height: 370px;
+
+}
+
+
+
+.mdl-card {
+    width: 330px;
+    height: 340px;
+}
+
+.mdl-card__title .mdl-button--icon {
+    height: 28px;
+    width: 28px;
+    min-width: 28px;
+    color: #fff;
+    background: #0f3b68;
+}
+
+
+.mdl-textfield__label {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+
+        .mdl-layout__content {
+  flex: 1 0 auto;
+}
+
+.mdl-mini-footer {
+  flex: 0 0 auto;
+}
